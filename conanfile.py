@@ -2,7 +2,7 @@ from conans import ConanFile, CMake
 
 class PocoTimerConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "Poco/1.7.2@lasote/stable"
+    requires = "Poco/1.7.3@lasote/stable"
     generators = "cmake", "gcc", "txt"
     options = {"shared": [True, False]} # Values can be True or False (number or string value is also possible)
     default_options = "shared=False", "Poco:shared=True", "OpenSSL:shared=True"
