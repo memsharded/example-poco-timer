@@ -1,5 +1,5 @@
 [requires]
-Poco/1.7.8p3@pocoproject/stable
+Poco/1.7.9@pocoproject/stable
 
 [generators]
 cmake
